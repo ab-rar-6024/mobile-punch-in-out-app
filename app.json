@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "attendance_mobile",
+    "slug": "attendance_mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "attendancemobile",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.abrar.attendance",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abrar.attendance"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2cfddd94-5aa9-45a9-a75e-29f2d3df495c"
+      }
+    }
+  }
+}
